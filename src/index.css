@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Dark portfolio theme with blue and gold accents
+   * All color variables are expressed as HSL values as expected by tailwind.config.ts
+  */
+  :root {
+    --background: 220 25% 6%;
+    --foreground: 210 20% 95%;
+
+    --card: 220 25% 8%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 220 25% 8%;
+    --popover-foreground: 210 20% 95%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 220 25% 6%;
+
+    --secondary: 220 20% 12%;
+    --secondary-foreground: 210 20% 85%;
+
+    --muted: 220 20% 12%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 45 93% 47%;
+    --accent-foreground: 220 25% 6%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 12%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 220 25% 6%;
+    --foreground: 210 20% 95%;
+
+    --card: 220 25% 8%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 220 25% 8%;
+    --popover-foreground: 210 20% 95%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 220 25% 6%;
+
+    --secondary: 220 20% 12%;
+    --secondary-foreground: 210 20% 85%;
+
+    --muted: 220 20% 12%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 45 93% 47%;
+    --accent-foreground: 220 25% 6%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 12%;
+    --ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-image:
+      radial-gradient(
+        circle at 25% 25%,
+        rgba(59, 130, 246, 0.15) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        rgba(234, 179, 8, 0.1) 0%,
+        transparent 50%
+      );
+  }
+
+  section {
+    @apply scroll-mt-16;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-400 via-blue-500 to-gold-400 bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply bg-card/50 backdrop-blur-sm border border-border/50;
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25;
+  }
+
+  .skill-bar {
+    @apply h-2 bg-muted rounded-full overflow-hidden relative;
+  }
+
+  .skill-progress {
+    @apply h-full bg-gradient-to-r from-blue-500 to-gold-400 rounded-full transition-all duration-1000 ease-out;
+  }
+}
