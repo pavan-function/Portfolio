@@ -82,6 +82,9 @@ const Index = () => {
     { name: "Tailwind CSS", level: 95 },
     { name: "Node JS", level: 80 },
     { name: "Python", level: 75 },
+    { name: "SQL", level: 80 },
+    { name: "Excel", level: 85 },
+    { name: "Tableau", level: 75 },
   ];
 
   const projects = [
@@ -93,7 +96,7 @@ const Index = () => {
         "https://cdn.builder.io/api/v1/image/assets%2Fe364b9bc647f4e62a890e37b88b01827%2F7ce98ef2304f4b6f82a0039a511a90aa",
       tech: ["React", "TypeScript", "Tailwind", "Vite"],
       liveUrl: "https://pavanluxe.netlify.app",
-      githubUrl: "#",
+      githubUrl: "",
     },
     {
       title: "FireChat GPT",
@@ -104,7 +107,7 @@ const Index = () => {
       tech: ["React", "Firebase", "Framer Motion", "TypeScript"],
       liveUrl: "https://pavanchatbot.netlify.app",
       githubUrl: "#",
-    },
+    }, 
     {
       title: "Travel Explorer",
       description:
@@ -113,7 +116,7 @@ const Index = () => {
         "https://cdn.builder.io/api/v1/image/assets%2Fe364b9bc647f4e62a890e37b88b01827%2F3782d4627361440f8fc90524022e62a0",
       tech: ["React", "Javascript", "OpenWeather API", "Vite"],
       liveUrl: "https://pavantravels.netlify.app",
-      githubUrl: "#",
+      githubUrl: "https://github.com/pavan-function/Travel-Explorer",
     },
     {
       title: "Portfolio Dashboard",
@@ -122,8 +125,8 @@ const Index = () => {
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
       tech: ["React", "TailwindCSS", "Framer Motion", "TypeScript"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://pavanrajk.netlify.app",
+      githubUrl: "https://github.com/pavan-function/Portfolio",
     },
     {
       title: "Finance Tracker",
@@ -133,7 +136,7 @@ const Index = () => {
         "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
       tech: ["React", "Chart.js", "Local Storage", "CSS3"],
       liveUrl: "https://pavantracker.netlify.app",
-      githubUrl: "#",
+      githubUrl: "https://github.com/pavan-function/budget-tracker",
     },
   ];
 
@@ -179,14 +182,12 @@ const Index = () => {
         <div className="text-center max-w-4xl mx-auto">
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="gradient-text">Frontend Developer</span>
+              <span className="gradient-text">Data Analyst</span>
               <br />
-              <span className="text-foreground">& UI/UX Enthusiast</span>
+              <span className="text-foreground">Turning messy data into clear decisions</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in-left animation-delay-300">
-              I craft beautiful, responsive web experiences that users love.
-              <br />
-              Passionate about clean code and intuitive design.
+              I analyze real-world data to uncover trends, solve business problems, and build dashboards that drive decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-600">
               <Button
@@ -206,7 +207,7 @@ const Index = () => {
 </Button>
 
               <a
-                href="pavanrajkotagiri"
+                href="mailto:pavanrajkotagiri123@gmail.com"
                 className="group hover:scale-105 transition-all duration-300 hover:bg-accent hover:text-accent-foreground border-border hover:border-accent inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8"
               >
                 <Mail className="w-5 h-5 mr-2" />
@@ -250,16 +251,10 @@ const Index = () => {
                   Hi, I'm Pavan raj
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  I'm a passionate frontend developer with over 3 years of
-                  experience creating beautiful, responsive web applications. I
-                  love turning complex problems into simple, beautiful designs
-                  that provide exceptional user experiences.
+                  I turn messy data into decisions.Background in front-end development, now focused fully on data analytics. I combine business understanding with technical skills to solve real problems using data.I don’t rely on perfect datasets. I clean, analyze, and extract insights from real-world data, then present them in a way that’s easy to understand and act on.Projects include e-commerce analytics and EU job market analysis using SQL, Python, and Tableau.
+                  Tools: SQL • Python • Excel • Tableau
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  When I'm not coding, you can find me exploring new
-                  technologies, contributing to open source projects, or sharing
-                  my knowledge through technical writing and mentoring.
-                </p>
+                
 
                 <div className="space-y-4">
                   <h4 className="text-xl font-semibold text-foreground">
@@ -272,6 +267,9 @@ const Index = () => {
                       "Tailwind CSS",
                       "Node Js",
                       "Python",
+                      "SQL",
+                      "Excel",
+                      "Tableau"
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -617,7 +615,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 text-muted-foreground hover:text-foreground transition-colors">
                     <Mail className="w-5 h-5" />
-                    <span>pavanrajkotagiri123@email.com</span>
+                    <span>pavanrajkotagiri123@gmail.com</span>
                   </div>
 
                   <div className="flex space-x-4 pt-4">
@@ -626,14 +624,28 @@ const Index = () => {
                       size="sm"
                       className="hover:bg-primary hover:text-primary-foreground"
                     >
+                    <a
+                      href="https://github.com/pavan-function"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-5 h-5 inline-block"
+                    >
                       <Github className="w-5 h-5" />
+                    </a>
                     </Button>
                     <Button
                       variant="outline"
                       size="sm"
                       className="hover:bg-primary hover:text-primary-foreground"
                     >
-                      <Linkedin className="w-5 h-5" />
+                    <a
+                      href="https://www.linkedin.com/in/pavanrajkotagiri/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-5 h-5 inline-block"
+                    >
+                      <Linkedin className="w-5 h-5"/>
+                    </a>
                     </Button>
                   </div>
                 </div>
