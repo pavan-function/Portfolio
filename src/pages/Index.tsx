@@ -89,6 +89,26 @@ const Index = () => {
 
   const projects = [
     {
+      title: "E-Commerce Sales Analysis",
+      description:
+        "Analyzed a fictional e-commerce dataset using SQL, Python (Pandas), and Tableau to evaluate sales performance, customer behavior, and product trends.",
+      image:
+        "https://freeimage.host/i/Bgu8ddu",
+      tech: ["SQL", "Python", "Excel", "Tableau"],
+      liveUrl: "https://public.tableau.com/views/E-CommerceSalesDashboard_17765139154870/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+      githubUrl: "https://github.com/pavan-function/ecommerce-sales-analysis",
+    },
+    {
+      title: "EU Data Jobs Market Analysis",
+      description:
+        "Analyzed job postings data across EU countries to identify demand trends, skills, and salary insights.",
+      image:
+        "https://freeimage.host/i/BguvFVI",
+      tech: ["SQL", "Python", "Excel", "Tableau"],
+      liveUrl: "https://public.tableau.com/views/eu-data-roles-job-market-analysis/EUDataRolesJobMarketDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+      githubUrl: "https://github.com/pavan-function/eu-data-roles-job-market-analysis",
+    },
+    {
       title: "E-Commerce Platform - LUXE",
       description:
         "Developed a modern fashion e-commerce site with dynamic product listings, promotional banners, and mobile-friendly design",
@@ -267,10 +287,6 @@ const Index = () => {
   <p className="text-lg text-muted-foreground leading-relaxed">
     Projects include e-commerce analytics and EU job market analysis using SQL,
     Python, and Tableau.
-  </p>
-
-  <p className="text-lg font-medium text-foreground">
-    Tools: SQL • Python • Excel • Tableau
   </p>
 
   <div className="space-y-4">
