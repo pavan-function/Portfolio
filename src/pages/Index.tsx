@@ -614,6 +614,11 @@ const Index = () => {
                         Live Demo
                       </a>
                       <Button size="sm" variant="ghost">
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                         <Github className="w-4 h-4" />
                       </Button>
                     </div>
