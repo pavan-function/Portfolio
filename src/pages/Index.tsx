@@ -77,14 +77,14 @@ const Index = () => {
   };
 
   const skills = [
+    { name: "SQL", level: 80 },
+    { name: "Excel", level: 85 },
+    { name: "Tableau", level: 75 },
+    { name: "Python", level: 75 },
     { name: "React", level: 90 },
     { name: "HTML5", level: 85 },
     { name: "Tailwind CSS", level: 95 },
     { name: "Node JS", level: 80 },
-    { name: "Python", level: 75 },
-    { name: "SQL", level: 80 },
-    { name: "Excel", level: 85 },
-    { name: "Tableau", level: 75 },
   ];
 
   const projects = [
@@ -96,7 +96,7 @@ const Index = () => {
         "https://cdn.builder.io/api/v1/image/assets%2Fe364b9bc647f4e62a890e37b88b01827%2F7ce98ef2304f4b6f82a0039a511a90aa",
       tech: ["React", "TypeScript", "Tailwind", "Vite"],
       liveUrl: "https://pavanluxe.netlify.app",
-      githubUrl: "",
+      githubUrl: "https://github.com/pavan-function/Fashion-Store",
     },
     {
       title: "FireChat GPT",
@@ -125,7 +125,7 @@ const Index = () => {
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
       tech: ["React", "TailwindCSS", "Framer Motion", "TypeScript"],
-      liveUrl: "https://pavanrajk.netlify.app",
+      liveUrl: "https://pavanrajk.me",
       githubUrl: "https://github.com/pavan-function/Portfolio",
     },
     {
@@ -253,6 +253,7 @@ const Index = () => {
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   I turn messy data into decisions.Background in front-end development, now focused fully on data analytics. I combine business understanding with technical skills to solve real problems using data.I don’t rely on perfect datasets. I clean, analyze, and extract insights from real-world data, then present them in a way that’s easy to understand and act on.Projects include e-commerce analytics and EU job market analysis using SQL, Python, and Tableau.
+                </br>
                   Tools: SQL • Python • Excel • Tableau
                 </p>
                 
@@ -263,14 +264,14 @@ const Index = () => {
                   </h4>
                   <div className="flex flex-wrap gap-3">
                     {[
-                      "React",
-                      "HTML5",
-                      "Tailwind CSS",
-                      "Node Js",
                       "Python",
                       "SQL",
                       "Excel",
-                      "Tableau"
+                      "Tableau",
+                      "React",
+                      "HTML5",
+                      "Tailwind CSS",
+                      "Node Js"
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -357,6 +358,47 @@ const Index = () => {
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start">
                     <div>
                       <CardTitle className="text-xl text-primary">
+                        Revature
+                      </CardTitle>
+                      <CardDescription className="text-muted-foreground mt-1">
+                        Frontend Developer  • Intern (remote)
+                      </CardDescription>
+                    </div>
+                    <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
+                      May 2025 - Sept 2025
+                    </span>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    1. Developed and optimized responsive web applications with React, HTML5, Tailwind CSS, and TypeScript, improving page load speed and responsiveness by 30% across devices.
+                    <br />
+                    <br />
+                    2. Collaborated with cross-functional teams (backend, QA, and design) to integrate RESTful APIs and deliver UI features, reducing development cycle time by 20% through reusable components and learnt python with eperienced backend team.
+                    <br />
+                    <br />
+                    3. Enhanced application performance and user experience by debugging and refactoring code, resulting in a 25% decrease in reported UI issues and higher customer satisfaction scores.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {["React", "TypeScript", "TailwindCSS", "HTML5"].map(
+                      (tech) => (
+                        <span
+                          key={tech}
+                          className="px-3 py-1 bg-accent/10 text-accent text-xs rounded-full"
+                        >
+                          {tech}
+                        </span>
+                      ),
+                    )}
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="glass-effect hover-glow">
+                <CardHeader>
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start">
+                    <div>
+                      <CardTitle className="text-xl text-primary">
                         TCS Company Ltd.
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
@@ -388,7 +430,7 @@ const Index = () => {
                     and enhanced team productivity.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {["React", "TypeScript", "TailwindCSS", "HTML5"].map(
+                    {["React", "Javascript", "CSS3", "HTML5"].map(
                       (tech) => (
                         <span
                           key={tech}
@@ -432,7 +474,7 @@ const Index = () => {
                     strategies to enhance digital presence.
                     <br />
                     <br />
-                    <strong>Data Analyst: </strong>Built Power BI dashboards and
+                    <strong>Data Analyst: </strong>Built Tableau dashboards and
                     data visualizations to support key business decisions,
                     applying principles of effective data storytelling.
                     <br />
@@ -441,6 +483,18 @@ const Index = () => {
                     plans, coordinated tasks, and applied risk management
                     strategies for smooth execution of a global event.
                   </p>
+                  <div className="flex flex-wrap gap-2">
+                    {["Tableau", "Excel"].map(
+                      (tech) => (
+                        <span
+                          key={tech}
+                          className="px-3 py-1 bg-accent/10 text-accent text-xs rounded-full"
+                        >
+                          {tech}
+                        </span>
+                      ),
+                    )}
+                  </div>
                 </CardContent>
               </Card>
 
@@ -616,7 +670,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 text-muted-foreground hover:text-foreground transition-colors">
                     <Mail className="w-5 h-5" />
-                    <span>pavanrajkotagiri123@gmail.com</span>
+                    <a href="mailto:pavanrajkotagiri123@gmail.com">pavanrajkotagiri123@gmail.com</a>
                   </div>
 
                   <div className="flex space-x-4 pt-4">
