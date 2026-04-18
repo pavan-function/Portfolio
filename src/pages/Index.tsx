@@ -620,6 +620,7 @@ const Index = () => {
                           rel="noopener noreferrer"
                         >
                         <Github className="w-4 h-4" />
+                        </a>
                       </Button>
                     </div>
                   </CardContent>
