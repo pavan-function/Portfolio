@@ -217,40 +217,30 @@ const Index = () => {
               I analyze real-world data to uncover trends, solve business problems, and build dashboards that drive decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-600">
-              <DropdownMenu>
-  <DropdownMenuTrigger asChild>
-    <Button
-      size="lg"
-      className="group bg-primary hover:bg-primary/90 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 inline-flex items-center gap-2"
-    >
-      <Download className="w-4 h-4" />
-      <span>View Resume</span>
-      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-    </Button>
-  </DropdownMenuTrigger>
-
-  <DropdownMenuContent align="center" className="w-52">
-    <DropdownMenuItem asChild>
-      <a
-        href="YOUR_ENGLISH_RESUME_LINK"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        English Resume
-      </a>
-    </DropdownMenuItem>
-
-    <DropdownMenuItem asChild>
-      <a
-        href="YOUR_GERMAN_RESUME_LINK"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        German Resume
-      </a>
-    </DropdownMenuItem>
-  </DropdownMenuContent>
-</DropdownMenu>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-600">
+              
+              <a
+                href="YOUR_ENGLISH_RESUME_LINK"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-primary hover:bg-primary/90 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 inline-flex items-center justify-center gap-2 rounded-md h-11 px-8 text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                English Resume
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </a>
+            
+              <a
+                href="YOUR_GERMAN_RESUME_LINK"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-flex items-center justify-center gap-2 rounded-md h-11 px-8 text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                German Resume
+              </a>
+            
+            </div>
 
               <a
                 href="mailto:pavanrajkotagiri123@gmail.com"
