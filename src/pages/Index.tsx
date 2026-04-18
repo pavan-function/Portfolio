@@ -184,7 +184,7 @@ const Index = () => {
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="gradient-text">Data Analyst</span>
-              <br />
+              <br/>
               <span className="text-foreground">Turning messy data into clear decisions</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in-left animation-delay-300">
@@ -248,41 +248,54 @@ const Index = () => {
               </div>
 
               <div className="space-y-6">
-                <h3 className="text-2xl md:text-3xl font-semibold gradient-text">
-                  Hi, I'm Pavan raj
-                </h3>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  I turn messy data into decisions.Background in front-end development, now focused fully on data analytics. I combine business understanding with technical skills to solve real problems using data.I don’t rely on perfect datasets. I clean, analyze, and extract insights from real-world data, then present them in a way that’s easy to understand and act on.Projects include e-commerce analytics and EU job market analysis using SQL, Python, and Tableau.
-                </br>
-                  Tools: SQL • Python • Excel • Tableau
-                </p>
-                
+  <h3 className="text-2xl md:text-3xl font-semibold gradient-text">
+    Hi, I'm Pavan Raj
+  </h3>
 
-                <div className="space-y-4">
-                  <h4 className="text-xl font-semibold text-foreground">
-                    Key Skills
-                  </h4>
-                  <div className="flex flex-wrap gap-3">
-                    {[
-                      "Python",
-                      "SQL",
-                      "Excel",
-                      "Tableau",
-                      "React",
-                      "HTML5",
-                      "Tailwind CSS",
-                      "Node Js"
-                    ].map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-4 py-2 bg-card border border-border rounded-full text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors duration-200"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
+  <p className="text-lg text-muted-foreground leading-relaxed">
+    I turn messy data into decisions. Background in front-end development, now
+    focused fully on data analytics. I combine business understanding with
+    technical skills to solve real problems using data.
+  </p>
+
+  <p className="text-lg text-muted-foreground leading-relaxed">
+    I don’t rely on perfect datasets. I clean, analyze, and extract insights
+    from real-world data, then present them in a way that’s easy to understand
+    and act on.
+  </p>
+
+  <p className="text-lg text-muted-foreground leading-relaxed">
+    Projects include e-commerce analytics and EU job market analysis using SQL,
+    Python, and Tableau.
+  </p>
+
+  <p className="text-lg font-medium text-foreground">
+    Tools: SQL • Python • Excel • Tableau
+  </p>
+
+  <div className="space-y-4">
+    <h4 className="text-xl font-semibold text-foreground">Key Skills</h4>
+    <div className="flex flex-wrap gap-3">
+      {[
+        "Python",
+        "SQL",
+        "Excel",
+        "Tableau",
+        "React",
+        "HTML5",
+        "Tailwind CSS",
+        "Node Js",
+      ].map((skill) => (
+        <span
+          key={skill}
+          className="px-4 py-2 bg-card border border-border rounded-full text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors duration-200"
+        >
+          {skill}
+        </span>
+      ))}
+    </div>
+  </div>
+</div>
             </div>
           </div>
         </div>
