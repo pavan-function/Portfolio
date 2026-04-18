@@ -93,7 +93,7 @@ const Index = () => {
       description:
         "Analyzed a fictional e-commerce dataset using SQL, Python (Pandas), and Tableau to evaluate sales performance, customer behavior, and product trends.",
       image:
-        "https://freeimage.host/i/Bgu8ddu",
+        "https://drive.google.com/file/d/1Ajg97YDV68ugR34JVhY66KcoMcV9QYEq/view?usp=sharing",
       tech: ["SQL", "Python", "Excel", "Tableau"],
       liveUrl: "https://public.tableau.com/views/E-CommerceSalesDashboard_17765139154870/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
       githubUrl: "https://github.com/pavan-function/ecommerce-sales-analysis",
@@ -103,7 +103,7 @@ const Index = () => {
       description:
         "Analyzed job postings data across EU countries to identify demand trends, skills, and salary insights.",
       image:
-        "https://freeimage.host/i/BguvFVI",
+        "https://drive.google.com/file/d/1hq0XY5Rb_V6_2PLNfq_SsNj49ojzDJ65/view?usp=sharing",
       tech: ["SQL", "Python", "Excel", "Tableau"],
       liveUrl: "https://public.tableau.com/views/eu-data-roles-job-market-analysis/EUDataRolesJobMarketDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
       githubUrl: "https://github.com/pavan-function/eu-data-roles-job-market-analysis",
