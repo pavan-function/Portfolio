@@ -7,6 +7,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import {
@@ -211,21 +217,40 @@ const Index = () => {
               I analyze real-world data to uncover trends, solve business problems, and build dashboards that drive decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-600">
-              <Button
-  asChild
-  size="lg"
-  className="group bg-primary hover:bg-primary/90 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 inline-flex items-center gap-2"
->
-  <a
-    href="https://drive.google.com/file/d/1RjRvfzc-TqOPgHd88wL4257sn2Rw8bSz/view?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Download className="w-4 h-4" />
-    <span>View Resume</span>
-    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-  </a>
-</Button>
+              <DropdownMenu>
+  <DropdownMenuTrigger asChild>
+    <Button
+      size="lg"
+      className="group bg-primary hover:bg-primary/90 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 inline-flex items-center gap-2"
+    >
+      <Download className="w-4 h-4" />
+      <span>View Resume</span>
+      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+    </Button>
+  </DropdownMenuTrigger>
+
+  <DropdownMenuContent align="center" className="w-52">
+    <DropdownMenuItem asChild>
+      <a
+        href="YOUR_ENGLISH_RESUME_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        English Resume
+      </a>
+    </DropdownMenuItem>
+
+    <DropdownMenuItem asChild>
+      <a
+        href="YOUR_GERMAN_RESUME_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        German Resume
+      </a>
+    </DropdownMenuItem>
+  </DropdownMenuContent>
+</DropdownMenu>
 
               <a
                 href="mailto:pavanrajkotagiri123@gmail.com"
