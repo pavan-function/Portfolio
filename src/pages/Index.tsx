@@ -220,7 +220,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-600">
               
               <a
-                href="YOUR_ENGLISH_RESUME_LINK"
+                href="https://drive.google.com/file/d/1v5pGGAV5mI5Hi310YB0lrllg2pCPIY9g/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-primary hover:bg-primary/90 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 inline-flex items-center justify-center gap-2 rounded-md h-11 px-8 text-sm font-medium"
@@ -231,7 +231,7 @@ const Index = () => {
               </a>
             
               <a
-                href="YOUR_GERMAN_RESUME_LINK"
+                href="https://drive.google.com/file/d/1lzNhpuOoOd61Ek11TuF7muX8O8I5fbxL/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-flex items-center justify-center gap-2 rounded-md h-11 px-8 text-sm font-medium"
@@ -350,7 +350,7 @@ const Index = () => {
                     Bachelors In Mechanical Engineering
                   </CardTitle>
                   <CardDescription className="text-muted-foreground">
-                    JNTU Hyderabad • 2018 - 2021
+                    JNTU Hyderabad 
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -367,7 +367,7 @@ const Index = () => {
                     Masters In Information Systems
                   </CardTitle>
                   <CardDescription className="text-muted-foreground">
-                    Saint Louis University • 2023-2025
+                    Saint Louis University
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -405,7 +405,7 @@ const Index = () => {
                         Revature
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
-                        Frontend Developer  • Intern (remote)
+                        Support Associate  • Intern (remote)
                       </CardDescription>
                     </div>
                     <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
@@ -415,13 +415,13 @@ const Index = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    1. Developed and optimized responsive web applications with React, HTML5, Tailwind CSS, and TypeScript, improving page load speed and responsiveness by 30% across devices.
+                    1. Analyzed application performance and user interaction data to identify bottlenecks and improve page load speed.
                     <br />
                     <br />
-                    2. Collaborated with cross-functional teams (backend, QA, and design) to integrate RESTful APIs and deliver UI features, reducing development cycle time by 20% through reusable components and learnt python with eperienced backend team.
+                    2. Collaborated with backend teams to integrate APIs and validate data flow across systems.
                     <br />
                     <br />
-                    3. Enhanced application performance and user experience by debugging and refactoring code, resulting in a 25% decrease in reported UI issues and higher customer satisfaction scores.
+                    3. Used debugging and testing techniques to reduce UI issues and improving overall user experience.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {["React", "TypeScript", "TailwindCSS", "HTML5"].map(
@@ -446,32 +446,23 @@ const Index = () => {
                         TCS Company Ltd.
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
-                        UI/UX Developer • Onsite (India)
+                        System Engineer • Onsite (India)
                       </CardDescription>
                     </div>
                     <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
-                      Feb 2022 - Aug 2023
+                      July 2021 - Aug 2023
                     </span>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    1. Worked as a UI/UX Developer on enterprise web
-                    applications for internal and client-facing platforms.
-                    Designed and developed responsive user interfaces using
-                    HTML5, CSS3, JavaScript, and modern front-end libraries.
+                    1. Worked with cross-functional teams to analyze user behavior and improve application usability.
                     <br />
                     <br />
-                    2. Led a team of four designers to optimize the quality
-                    assurance process in collaboration with QA leads, employing
-                    streamlined workflows, enhancing product handover efficiency
-                    to Development and Engineering teams
+                    2. Interpreted user feedback and performance data to guide design and development decisions.
                     <br />
                     <br />
-                    3. Effectively managed multiple UX projects, coordinating
-                    with cross-functional teams to align design initiatives with
-                    business goals, which accelerated project timelines by 20%
-                    and enhanced team productivity.
+                    3. Contributed to optimizing workflows to improve delivery efficiency.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {["React", "Javascript", "CSS3", "HTML5"].map(
@@ -496,36 +487,24 @@ const Index = () => {
                         Excelerate
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
-                        Intern - Multi Functional Rotational Roles • Saint Louis
+                        Intern (Remote) - Data Analyst & Project Manager • Saint Louis
                         University
                       </CardDescription>
                     </div>
                     <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
-                      2022 - 2023
+                      Jan 2023 - Apr 2023
                     </span>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    <strong>Innovation Consultant: </strong>Led a team of five
-                    members from ideation to proposal for a new product concept.
-                    Conducted user research and delivered user-driven digital
-                    experience concepts.
+                    1. Built Tableau dashboards to visualize business data and support decision-making.
                     <br />
                     <br />
-                    <strong>Social Media Analyst: </strong>Performed platform
-                    audits, developed audience personas, and proposed engagement
-                    strategies to enhance digital presence.
+                    2. Performed data analysis using Excel to identify trends and improve engagement strategies.
                     <br />
                     <br />
-                    <strong>Data Analyst: </strong>Built Tableau dashboards and
-                    data visualizations to support key business decisions,
-                    applying principles of effective data storytelling.
-                    <br />
-                    <br />
-                    <strong>Project Manager: </strong>Developed event project
-                    plans, coordinated tasks, and applied risk management
-                    strategies for smooth execution of a global event.
+                    3. Coordinated global event planning with risk management strategies, ensuring 100% on-time execution.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {["Tableau", "Excel"].map(
