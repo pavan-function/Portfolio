@@ -95,14 +95,14 @@ const Index = () => {
 
   const projects = [
     {
-      title: "Supply Chain Performance Dashboard",
+      title: "Blitzmart - Supply Chain Performance Dashboard",
       description:
-        "Designed and implemented a Supply Chain Performance Dashboard (Tableau) using SQL and Python, analyzing 10K+ records to evaluate OTIF, stockout rate, supplier delays, and forecast accuracy.",
+        "End-to-end analytics on 6.6M rows of German e-commerce supply chain data - SQL, Python, Tableau",
       image:
         "https://images.unsplash.com/photo-1590497008432-598f04441de8?q=80&w=1391&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tech: ["SQL", "Python", "Sheets", "Tableau"],
-      liveUrl: "https://public.tableau.com/views/SupplyChainPerformanceDashboard_17766444300480/SupplyChainPerformanceDashboardGermany?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-      githubUrl: "https://github.com/pavan-function/Supply-Chain-Performance-Dashboard-Germany-",
+      tech: ["SQL", "Python", "Excel", "Tableau"],
+      liveUrl: "https://public.tableau.com/app/profile/pavan.raj.kotagiri/viz/BlitzMartAnalytics-GermanE-CommerceSupplyChain/SalesCustomerPerformance?publish=yes",
+      githubUrl: "https://github.com/pavan-function/Blitzmart - Supply-Chain-Performance-Dashboard-Germany",
     },
     {
       title: "E-Commerce Sales Analysis",
