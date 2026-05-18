@@ -97,7 +97,7 @@ const Index = () => {
     {
       title: "Blitzmart - Supply Chain Performance Dashboard",
       description:
-        "End-to-end analytics on 6.6M rows of German e-commerce supply chain data - SQL, Python, Tableau",
+        "End-to-end analytics on 6.6M rows of German e-commerce supply chain data using SQL, Python, Tableau",
       image:
         "https://images.unsplash.com/photo-1590497008432-598f04441de8?q=80&w=1391&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tech: ["SQL", "Python", "Excel", "Tableau"],
@@ -105,74 +105,14 @@ const Index = () => {
       githubUrl: "https://github.com/pavan-function/Blitzmart - Supply-Chain-Performance-Dashboard-Germany",
     },
     {
-      title: "E-Commerce Sales Analysis",
+      title: "PharmaFlow Analytics - DACH Online Pharmacy Operations Analysis",
       description:
-        "Analyzed a fictional e-commerce dataset using SQL, Python (Pandas), and Tableau to evaluate sales performance, customer behavior, and product trends.",
+        "End-to-end analytics workflow on 10.8M row synthetic dataset modeling an online pharmacy across Germany, Austria, Switzerland, and Netherlands",
       image:
-        "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tech: ["SQL", "Python", "Excel", "Tableau"],
-      liveUrl: "https://public.tableau.com/views/E-CommerceSalesDashboard_17765139154870/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-      githubUrl: "https://github.com/pavan-function/ecommerce-sales-analysis",
-    },
-    {
-      title: "EU Data Jobs Market Analysis",
-      description:
-        "Analyzed job postings data across EU countries to identify demand trends, skills, and salary insights.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tech: ["SQL", "Python", "Excel", "Tableau"],
-      liveUrl: "https://public.tableau.com/views/eu-data-roles-job-market-analysis/EUDataRolesJobMarketDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-      githubUrl: "https://github.com/pavan-function/eu-data-roles-job-market-analysis",
-    },
-    {
-      title: "E-Commerce Platform - LUXE",
-      description:
-        "Developed a modern fashion e-commerce site with dynamic product listings, promotional banners, and mobile-friendly design",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fe364b9bc647f4e62a890e37b88b01827%2F7ce98ef2304f4b6f82a0039a511a90aa",
-      tech: ["React", "TypeScript", "Tailwind", "Vite"],
-      liveUrl: "https://pavanluxe.netlify.app",
-      githubUrl: "https://github.com/pavan-function/Fashion-Store",
-    },
-    {
-      title: "FireChat GPT",
-      description:
-        "Developed a AI chatbot using React and OpenRouter's Chat Completion API",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fe364b9bc647f4e62a890e37b88b01827%2Fcd0d47f26f9945c593765413640120a5",
-      tech: ["React", "Firebase", "Framer Motion", "TypeScript"],
-      liveUrl: "https://pavanchatbot.netlify.app",
-      githubUrl: "#",
-    }, 
-    {
-      title: "Travel Explorer",
-      description:
-        "Includes search, continent filter, live weather, favorites via local storage, and responsive UI with smooth animations.",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fe364b9bc647f4e62a890e37b88b01827%2F3782d4627361440f8fc90524022e62a0",
-      tech: ["React", "Javascript", "OpenWeather API", "Vite"],
-      liveUrl: "https://pavantravels.netlify.app",
-      githubUrl: "https://github.com/pavan-function/Travel-Explorer",
-    },
-    {
-      title: "Portfolio Dashboard",
-      description:
-        "Modern personal portfolio website built with React and TailwindCSS featuring smooth animations, responsive design, and dark theme.",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      tech: ["React", "TailwindCSS", "Framer Motion", "TypeScript"],
-      liveUrl: "https://pavanrajk.me",
-      githubUrl: "https://github.com/pavan-function/Portfolio",
-    },
-    {
-      title: "Finance Tracker",
-      description:
-        "Personal finance management app with expense tracking, budget planning, interactive charts, and monthly reports with local storage.",
-      image:
-        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
-      tech: ["React", "Chart.js", "Local Storage", "CSS3"],
-      liveUrl: "https://pavantracker.netlify.app",
-      githubUrl: "https://github.com/pavan-function/budget-tracker",
+        "https://images.unsplash.com/vector-1761074726206-8235a4b380ef?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tech: ["DuckDB SQL", "Python", "Tableau"],
+      liveUrl: "https://public.tableau.com/views/PharmaFlowAnalytics/Dashboard_Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+      githubUrl: "https://github.com/pavan-function/pharmaflow-analytics",
     },
   ];
 
