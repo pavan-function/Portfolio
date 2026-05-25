@@ -121,8 +121,8 @@ const Index = () => {
       image:
         "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tech: ["SQL", "Python", "Power BI", "Excel"],
-      liveUrl: "https://public.tableau.com/views/PharmaFlowAnalytics/Dashboard_Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-      githubUrl: "https://github.com/pavan-function/pharmaflow-analytics",
+      liveUrl: "https://drive.google.com/file/d/1qZt77VL-VnqZqPdqXBWr7lsLn9RrBdEJ/view?usp=sharing",
+      githubUrl: "https://github.com/pavan-function/CardPulse_Analytics",
     },
   ];
 
