@@ -114,6 +114,16 @@ const Index = () => {
       liveUrl: "https://public.tableau.com/views/PharmaFlowAnalytics/Dashboard_Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
       githubUrl: "https://github.com/pavan-function/pharmaflow-analytics",
     },
+    {
+      title: "CardPulse Analytics – German Banking Card Payments Analysis",
+      description:
+        "Built a card payments analytics project on a synthetic German banking dataset (250K customers, 1.5M transactions) using PostgreSQL, Excel, and Power BI. RFM segmentation flagged 7,400 high-value customers at risk of churning, representing EUR 7.7M in revenue exposure",
+      image:
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tech: ["SQL", "Python", "Power BI", "Excel"],
+      liveUrl: "https://public.tableau.com/views/PharmaFlowAnalytics/Dashboard_Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+      githubUrl: "https://github.com/pavan-function/pharmaflow-analytics",
+    },
   ];
 
   const scrollToSection = (sectionId: string) => {
