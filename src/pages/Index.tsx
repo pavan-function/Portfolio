@@ -266,6 +266,7 @@ const Index = () => {
       {[
         "Python",
         "SQL",
+        "Power BI"
         "Excel",
         "Tableau",
         "React",
