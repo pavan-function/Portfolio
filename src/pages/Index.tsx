@@ -357,10 +357,92 @@ const Index = () => {
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start">
                     <div>
                       <CardTitle className="text-xl text-primary">
+                        Upwoek
+                      </CardTitle>
+                      <CardDescription className="text-muted-foreground mt-1">
+                        Freelance Data Analyst & Content Creator
+                      </CardDescription>
+                    </div>
+                    <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
+                      Oct 2025 - Apr 2026
+                    </span>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    1. Built dashboards and KPI reports for clients using SQL, Python (Pandas), Power BI, Tableau, and Excel, turning raw data into clear business insights.
+                    <br />
+                    <br />
+                    2. Designed presentation decks, social graphics, and infographics using Canva and Adobe Creative Cloud.
+                    <br />
+                    <br />
+                    3. Built simple web pages and landing content with HTML, CSS, and JavaScript and used Claude Code and Codex to speed up analysis, cleaning, and content workflows..
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {["HTML", "CSS", "Figma", "SQL", "Python"].map(
+                      (tech) => (
+                        <span
+                          key={tech}
+                          className="px-3 py-1 bg-accent/10 text-accent text-xs rounded-full"
+                        >
+                          {tech}
+                        </span>
+                      ),
+                    )}
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="glass-effect hover-glow">
+                <CardHeader>
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start">
+                    <div>
+                      <CardTitle className="text-xl text-primary">
+                        PrintoMatic
+                      </CardTitle>
+                      <CardDescription className="text-muted-foreground mt-1">
+                        Founder  • Part-time (remote)
+                      </CardDescription>
+                    </div>
+                    <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
+                      May 2020 - Jan 2026
+                    </span>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    1. Started PrintoMatic, a small 3D printing venture in India focused on medical and prosthetic-related solutions.
+                    <br />
+                    <br />
+                    2. Worked directly with doctors, medical professionals, and hospital administrators to understand client needs.
+                    <br />
+                    <br />
+                    3. During COVID-19, shifted production and supplied 10,000+ face shields.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {map(
+                      (tech) => (
+                        <span
+                          key={tech}
+                          className="px-3 py-1 bg-accent/10 text-accent text-xs rounded-full"
+                        >
+                          {tech}
+                        </span>
+                      ),
+                    )}
+                  </div>
+                </CardContent>
+              </Card>
+
+
+              <Card className="glass-effect hover-glow">
+                <CardHeader>
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start">
+                    <div>
+                      <CardTitle className="text-xl text-primary">
                         Revature
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
-                        Support Associate  • Intern (remote)
+                        UI Engineer  • Intern (remote)
                       </CardDescription>
                     </div>
                     <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
@@ -401,7 +483,7 @@ const Index = () => {
                         TCS Company Ltd.
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
-                        System Engineer • Onsite (India)
+                        Product Engineer • Onsite (India)
                       </CardDescription>
                     </div>
                     <span className="text-sm text-muted-foreground mt-2 md:mt-0 font-medium">
