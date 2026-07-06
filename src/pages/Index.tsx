@@ -357,7 +357,7 @@ const Index = () => {
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start">
                     <div>
                       <CardTitle className="text-xl text-primary">
-                        Upwoek
+                        Upwork
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
                         Freelance Data Analyst & Content Creator
@@ -376,7 +376,7 @@ const Index = () => {
                     2. Designed presentation decks, social graphics, and infographics using Canva and Adobe Creative Cloud.
                     <br />
                     <br />
-                    3. Built simple web pages and landing content with HTML, CSS, and JavaScript and used Claude Code and Codex to speed up analysis, cleaning, and content workflows..
+                    3. Built simple web pages and landing content with HTML, CSS, and JavaScript and used Claude Code and Codex to speed up analysis, cleaning, and content workflows.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {["HTML", "CSS", "Figma", "SQL", "Python"].map(
@@ -419,7 +419,7 @@ const Index = () => {
                     3. During COVID-19, shifted production and supplied 10,000+ face shields.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {map(
+                    {["3D Printing", "B2B Sales", "Medical Devices", "Operations"].map(
                       (tech) => (
                         <span
                           key={tech}
@@ -432,8 +432,6 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
-
-
               <Card className="glass-effect hover-glow">
                 <CardHeader>
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start">
@@ -458,7 +456,7 @@ const Index = () => {
                     2. Collaborated with backend teams to integrate APIs and validate data flow across systems.
                     <br />
                     <br />
-                    3. Used debugging and testing techniques to reduce UI issues and improving overall user experience.
+                    3. Used debugging and testing techniques to reduce UI issues and improve overall user experience.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {["React", "TypeScript", "TailwindCSS", "HTML5"].map(
@@ -480,7 +478,7 @@ const Index = () => {
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start">
                     <div>
                       <CardTitle className="text-xl text-primary">
-                        TCS Company Ltd.
+                        Tata Consultancy Services Ltd.
                       </CardTitle>
                       <CardDescription className="text-muted-foreground mt-1">
                         Product Engineer • Onsite (India)
@@ -502,7 +500,7 @@ const Index = () => {
                     3. Contributed to optimizing workflows to improve delivery efficiency.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {["React", "Javascript", "CSS3", "HTML5"].map(
+                    {["React", "JavaScript", "CSS3", "HTML5"].map(
                       (tech) => (
                         <span
                           key={tech}
