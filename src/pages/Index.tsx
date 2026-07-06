@@ -84,8 +84,11 @@ const Index = () => {
 
   const skills = [
     { name: "SQL", level: 80 },
+    { name: "Adobe", level: 65 },
     { name: "Excel", level: 85 },
+    { name: "Canva", level: 90 },
     { name: "Power BI", level: 70 },
+    { name: "Figma", level: 80 },
     { name: "Tableau", level: 75 },
     { name: "Python", level: 75 },
     { name: "React", level: 90 },
